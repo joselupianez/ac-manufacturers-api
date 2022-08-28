@@ -108,13 +108,20 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html')
 })
 
-// @desc    Respond with a JSON of all companies
+// @desc    Respond with data of all companies
 // @route   GET /api
 app.get('/api', (req, res) => {
     res.json(manufacturers)
 })
 
-// @desc    Respond with a JSON of the specific company
+// @desc    Respond with data of a random company
+// @route   GET /api/random
+app.get('/api/random', (req, res) => {
+    const keys = Object.keys(manufacturers)
+    res.json(manufacturers[keys[Math.floor(Math.random() * keys.length)]])
+})
+
+// @desc    Respond with data of the specific company
 // @route   GET /api/:name
 app.get('/api/:name', (req, res) => {
     const companyName = req.params.name.toLowerCase()

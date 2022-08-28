@@ -40,6 +40,8 @@ All Companies - [https://ac-manufacturers.herokuapp.com/api/](https://ac-manufac
 
 Specific Company - [https://ac-manufacturers.herokuapp.com/api/rheem](https://ac-manufacturers.herokuapp.com/api/rheem)
 
+Random Company - [https://ac-manufacturers.herokuapp.com/api/random](https://ac-manufacturers.herokuapp.com/api/random)
+
 ## Optimizations
 
 Added the ability to display all companies with one request. Endpoint for specific company works regardless of capitalization in paremeters. 
