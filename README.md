@@ -26,9 +26,9 @@ Stored large air conditioning manufacturers' data (brands, year founded, headqua
 
 ## Endpoints
 
-All Companies - [https://ac-manufacturers.herokuapp.com/api/](https://calm-fjord-71736.herokuapp.com/api)
+All Companies - [https://ac-manufacturers.herokuapp.com/api/](https://ac-manufacturers.herokuapp.com/api/)
 
-Specific Company - [https://ac-manufacturers.herokuapp.com/api/rheem](https://calm-fjord-71736.herokuapp.com/api/rheem)
+Specific Company - [https://ac-manufacturers.herokuapp.com/api/rheem](https://ac-manufacturers.herokuapp.com/api/rheem)
 
 ## Optimizations
 
