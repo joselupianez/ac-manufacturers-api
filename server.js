@@ -117,7 +117,7 @@ app.get('/api', (req, res) => {
 // @desc    Respond with data of a random company
 // @route   GET /api/random
 app.get('/api/random', (req, res) => {
-    const keys = Object.keys(manufacturers)
+    const keys = Object.keys(manufacturers).slice(0,-1)
     res.json(manufacturers[keys[Math.floor(Math.random() * keys.length)]])
 })
 
