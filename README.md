@@ -17,6 +17,9 @@
 Stored large air conditioning manufacturers' data (brands, year founded, headquarters, key people, and website). Added two endpoints for quickly accessing the information of all companies or a single company.
 ### Tech Used:
 [![JS][Javascript]][Javascript]
+[![Bootstrap][Bootstrap.com]][Bootstrap.com]
+[![ExpressJS][Express.JS]][Express.JS]
+[![NodeJS][Node.JS]][Node.JS]
 
 <!-- GETTING STARTED -->
 ## Installation
@@ -47,4 +50,8 @@ Finding correct, up-to-date information on some smaller air conditioning brands 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [Javascript]: https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Express.JS]: https://img.shields.io/badge/Express.js-404D59?style=for-the-badge
+[Node.JS]: https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white
+
 [screenshot]: screenshot.png
