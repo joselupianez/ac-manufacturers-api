@@ -2,6 +2,13 @@
   <h3 align="center">Air Conditioning Manufacturers API</h3>
   <p align="center">
     An API with information on some of the biggest air conditioning companies.
+    <br />
+    <br />
+    <a href="https://ac-manufacturers.herokuapp.com/">View</a>
+    ·
+    <a href="https://github.com/joselupianez/ac-manufacturers-api/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/joselupianez/ac-manufacturers-api/pulls">Request Feature</a>
   </p>
   <img src="screenshot.png">
 </div>

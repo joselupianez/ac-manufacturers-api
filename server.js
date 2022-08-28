@@ -6,7 +6,9 @@ const PORT = 5000
 // Load environment variables from .env files.
 require('dotenv').config()
 
+// Middlewares
 app.use(cors())
+app.use(express.static('public'))
 
 // Air Conditioning Manufacturers
 let manufacturers = {
