@@ -4,7 +4,7 @@
     An API with information on some of the biggest air conditioning companies.
     <br />
     <br />
-    <a href="https://ac-manufacturers.herokuapp.com/">View</a>
+    <a href="https://ac-manufacturers.up.railway.app">View</a>
     ·
     <a href="https://github.com/joselupianez/ac-manufacturers-api/issues">Report Bug</a>
     ·

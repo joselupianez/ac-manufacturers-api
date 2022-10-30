@@ -1,23 +1,7 @@
-body {
-    padding: 20px;
-}
-
 pre {
     background-color: rgba(203, 203, 203, 0.3);
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
-}
-
-button {
-    float: right;
-    border: none;
-    border-radius: 5px;
-    padding: 5px 20px;
-    background:rgb(56, 109, 255);
-    color: white;
-}
-
-button:hover {
-    background: rgb(97, 138, 251);
+    line-height: 30px
 }

@@ -8,20 +8,30 @@
         <link rel="stylesheet" href="css/style.css">
     </head>    
     <body>
-        <div class="container">
-            <h1>Air Conditioning Manufacturers</h1>
-            <p>A collection of air conditioning manufacturers data including when they were founded, key people, headquarters, and brands they manufacture.</p>
-            <section>
-                <h2>API Endpoints:</h2>
-                <p>All Companies:</p>
-                <pre><span>https://ac-manufacturers.herokuapp.com/api/</span><button class="copy">copy</button></pre>
-                <p>Specific Company:</p>
-                <pre><span>https://ac-manufacturers.herokuapp.com/api/:name</span><button class="copy">copy</button></pre>
-                <p>Random Company:</p>
-                <pre><span>https://ac-manufacturers.herokuapp.com/api/random</span><button class="copy">copy</button></pre>
-            </section>
-    
-            <p>Want to add another air conditioning manufacturer? Submit the company's information as a pull request <a href="https://github.com/joselupianez/ac-manufacturers-api/pulls">here.</a></p>                
+        <div class="col-lg-8 mx-auto p-3 py-md-5">
+            <header class="d-flex flex-column">
+                <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" fill="currentColor" class="bi bi-card-list" viewBox="0 0 16 16">
+                        <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
+                        <path d="M5 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 5 8zm0-2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0 5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-1-5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zM4 8a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm0 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/>
+                    </svg>
+                    <span class="fs-4">Air Conditioning Manufacturers</span>
+                </a>
+                <p class="fs-5 pt-3">A collection of air conditioning manufacturers data including when they were founded, key people, headquarters, and brands they manufacture.</p>
+            </header>
+            <hr class="col-3 col-md-2 text-muted">
+            <main class="py-2">
+                <h1 class="pb-3">API Endpoints:</h1>
+                <h6>All Companies</h4>
+                <pre><span>https://ac-manufacturers.herokuapp.com/api/</span><button class="btn btn-primary btn-sm px-4 float-end copy">copy</button></pre>
+                <h6>Specific Company</h4>
+                <pre><span>https://ac-manufacturers.herokuapp.com/api/:name</span><button class="btn btn-primary btn-sm px-4 float-end copy">copy</button></pre>
+                <h6>Random Company</h4>
+                <pre><span>https://ac-manufacturers.herokuapp.com/api/random</span><button class="btn btn-primary btn-sm px-4 float-end copy">copy</button></pre>
+            </main>
+            <footer class="pt-5 my-5 text-muted border-top">
+                <p>Want to add another air conditioning manufacturer? Submit the company's information as a pull request <a href="https://github.com/joselupianez/ac-manufacturers-api/pulls">here.</a></p>
+            </footer>
         </div>
         <script src="js/main.js"></script>
     </body>
