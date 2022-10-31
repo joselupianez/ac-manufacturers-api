@@ -36,11 +36,11 @@ Stored large air conditioning manufacturers' data (brands, year founded, headqua
 
 ## Endpoints
 
-All Companies - [https://ac-manufacturers.herokuapp.com/api/](https://ac-manufacturers.herokuapp.com/api/)
+All Companies - [https://ac-manufacturers.herokuapp.com/api/](https://ac-manufacturers.up.railway.app/api/)
 
-Specific Company - [https://ac-manufacturers.herokuapp.com/api/rheem](https://ac-manufacturers.herokuapp.com/api/rheem)
+Specific Company - [https://ac-manufacturers.herokuapp.com/api/rheem](https://ac-manufacturers.up.railway.app/api/rheem)
 
-Random Company - [https://ac-manufacturers.herokuapp.com/api/random](https://ac-manufacturers.herokuapp.com/api/random)
+Random Company - [https://ac-manufacturers.herokuapp.com/api/random](https://ac-manufacturers.up.railway.app/api/random)
 
 ## Optimizations
 
